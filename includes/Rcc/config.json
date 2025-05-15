@@ -1,0 +1,7 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Roblox\\Grid\\Rcc\\": "C:/xampp/htdocs/idk16/includes/Rcc"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine on
+
+RewriteRule ^game/players/(.*)?$ Game/players/index.php?value=$1 [QSA,NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L,QSA]
